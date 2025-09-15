@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Layanan - ELECTROCOOL</title>
+  <style>
+    /* Reset & dasar */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: url("jasa service ac.webp") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    /* Overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.55);
+      z-index: -1;
+    }
+
+    header {
+      background: rgba(0, 119, 182, 0.85);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+
+    .container {
+      max-width: 950px;
+      margin: 20px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(6px);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #ffdd00;
+      border-left: 5px solid #ffd60a;
+      padding-left: 10px;
+      margin-top: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    table, th, td { border: 1px solid rgba(255,255,255,0.3); }
+    th {
+      background: rgba(0, 119, 182, 0.9);
+      color: white;
+      text-align: center;
+      padding: 8px;
+    }
+    td { 
+      padding: 8px; 
+      vertical-align: top; 
+      background: rgba(255,255,255,0.05); 
+      color: #fff;
+    }
+
+    ul, ol { margin: 10px 0 10px 20px; }
+
+    .footer {
+      background: rgba(0, 119, 182, 0.85);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 0 0 12px 12px;
+    }
+
+    /* Tombol WhatsApp */
+    .btn-wa-wrapper {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 1000;
+    }
+
+    .btn-wa {
+      width: 60px;
+      height: 60px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+    }
+    .btn-wa:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 18px rgba(0,0,0,0.25);
+      background: #1ebe5d;
+    }
+
+    .btn-wa-text {
+      background: #25d366;
+      color: #fff;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      transition: background 0.12s ease, transform 0.12s ease;
+      white-space: nowrap;
+    }
+    .btn-wa-text:hover {
+      background: #1ebe5d;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 420px) {
+      .btn-wa { width: 52px; height: 52px; font-size: 24px; }
+      .container { margin: 12px; padding: 14px; }
+      .btn-wa-text { font-size: 14px; padding: 10px 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ELECTROCOOL</h1>
+  <p>Service AC & Instalasi Electrical</p>
+</header>
+
+<div class="container">
+
+  <h2>I. Pendahuluan</h2>
+  <p>
+    Seiring dengan perkembangan teknologi dan kebutuhan kenyamanan dalam ruangan, perawatan dan perbaikan
+    Air Conditioner (AC) menjadi hal yang sangat penting untuk menunjang kenyamanan hidup dan produktivitas.
+    Kami, <b>ELECTROCOOL</b>, bergerak di bidang jasa service AC yang berpengalaman dan profesional, siap membantu
+    Anda menjaga dan memperbaiki AC agar selalu dalam kondisi prima.
+  </p>
+
+  <h2>II. Latar Belakang</h2>
+  <p>
+    AC merupakan perangkat yang sangat penting dalam rumah, kantor, dan berbagai tempat usaha
+    untuk menciptakan suhu ruangan yang nyaman. Namun, seperti perangkat lainnya, AC membutuhkan perawatan
+    dan service secara berkala agar performanya tetap optimal dan umur pakainya lebih lama.
+  </p>
+
+  <h2>III. Tujuan</h2>
+  <p>
+    Memberikan layanan service AC berkualitas dengan harga terjangkau, meliputi pembersihan, pengecekan,
+    perbaikan, dan pengisian ulang freon agar AC dapat berfungsi dengan baik.
+  </p>
+
+  <h2>IV. Layanan yang Kami Tawarkan</h2>
+  <ul>
+    <li><b>Service AC Rutin</b>
+      <ul>
+        <li>Membersihkan filter AC</li>
+        <li>Membersihkan evaporator dan kondensor</li>
+        <li>Mengecek sistem kelistrikan</li>
+        <li>Mengisi ulang freon (jika diperlukan)</li>
+      </ul>
+    </li>
+    <li><b>Perbaikan AC</b>
+      <ul>
+        <li>Perbaikan kompresor</li>
+        <li>Mengatasi kebocoran freon</li>
+        <li>Memperbaiki kipas dan motor</li>
+      </ul>
+    </li>
+    <li><b>Instalasi AC Baru</b>
+      <ul>
+        <li>Pemasangan AC split indoor & outdoor</li>
+        <li>Konsultasi & pengecekan gratis</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>V. Ruang Lingkup Layanan</h2>
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Jenis Layanan</th>
+      <th>Rincian Pekerjaan</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cuci AC (Service Ringan)</td>
+      <td>- Membersihkan indoor & outdoor<br>- Membersihkan filter & evaporator<br>- Cek kebocoran air/freon</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cuci Besar + Freon</td>
+      <td>- Cuci total dengan semprot tekanan<br>- Isi freon R32/R410a/R22<br>- Cek sistem kelistrikan</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tambah Freon</td>
+      <td>- Isi sesuai standar tekanan<br>- Cek tekanan freon</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Bongkar/Pasang AC</td>
+      <td>- Bongkar unit lama / pasang baru<br>- Pipa + bracket sesuai permintaan</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Perbaikan AC</td>
+      <td>- PCB, motor fan, kapasitor, kompresor, dll<br>- Diagnosa & estimasi biaya</td>
+    </tr>
+  </table>
+
+  <h2>VI. Daftar Harga Service AC</h2>
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Jenis Layanan</th>
+      <th>Harga per Unit (Rp)</th>
+      <th>Keterangan</th>
+    </tr>
+    <tr><td>1</td><td>Cuci AC 0.5 - 2 PK</td><td>90.000</td><td>Rumah & kantor</td></tr>
+    <tr><td>2</td><td>Cuci + Isi Freon R22</td><td>250.000</td><td>Cek kebocoran</td></tr>
+    <tr><td>3</td><td>Cuci + Isi Freon R32</td><td>280.000</td><td>Uji fungsi</td></tr>
+    <tr><td>4</td><td>Tambah Freon R22</td><td>100.000 - 150.000</td><td>Sesuai kebutuhan</td></tr>
+    <tr><td>5</td><td>Tambah Freon R32/R410a</td><td>150.000 - 200.000</td><td>Sesuai kebutuhan</td></tr>
+    <tr><td>6</td><td>Bongkar Pasang AC</td><td>350.000 - 500.000</td><td>Tergantung lokasi</td></tr>
+    <tr><td>7</td><td>Pemasangan AC Baru</td><td>250.000 - 350.000</td><td>Include bracket standar</td></tr>
+    <tr><td>8</td><td>Perbaikan Komponen</td><td>Mulai 250.000</td><td>Tergantung kerusakan</td></tr>
+    <tr><td>9</td><td>Service AC Gedung</td><td>Negosiasi</td><td>Kontrak jangka panjang</td></tr>
+  </table>
+
+  <h2>VII. Prosedur Pelayanan</h2>
+  <ol>
+    <li>Konsultasi & pengecekan awal.</li>
+    <li>Menentukan jenis layanan yang diperlukan.</li>
+    <li>Pelaksanaan service/perbaikan sesuai kesepakatan.</li>
+    <li>Garansi pelayanan 1 bulan untuk layanan tertentu.</li>
+  </ol>
+
+  <h2>VIII. Daftar Harga Instalasi Electrical</h2>
+  <table>
+    <tr>
+      <th>Jenis Pekerjaan</th>
+      <th>Jasa Saja (Rp)</th>
+      <th>All In (Rp)</th>
+    </tr>
+    <tr><td>Lampu</td><td>50.000 – 70.000</td><td>245.000 – 300.000</td></tr>
+    <tr><td>Stop Kontak</td><td>70.000 – 95.000</td><td>245.000 – 300.000</td></tr>
+    <tr><td>Stop Kontak AC / Water Heater</td><td>70.000 – 110.000</td><td>275.000 – 450.000</td></tr>
+    <tr><td>Lampu Taman</td><td>-</td><td>265.000 – 400.000</td></tr>
+    <tr><td>Kabel Antena TV</td><td>100.000</td><td>245.000 – 300.000</td></tr>
+    <tr><td>Radar Pompa Air</td><td>-</td><td>290.000</td></tr>
+    <tr><td>Panel MCB per Unit</td><td>65.000 – 70.000</td><td>235.000 – 290.000</td></tr>
+    <tr><td>Kabel Toufor per Meter</td><td>-</td><td>120.000</td></tr>
+    <tr><td>Grounding (Proses Bayar)</td><td>-</td><td>195.000 per unit</td></tr>
+  </table>
+
+  <h2>IX. Prosedur Instalasi Electrical</h2>
+  <ol>
+    <li>Konsultasi & pengecekan awal.</li>
+    <li>Menentukan jenis layanan.</li>
+    <li>Pelaksanaan pekerjaan sesuai kesepakatan.</li>
+    <li>Garansi 1 bulan untuk layanan tertentu.</li>
+  </ol>
+
+</div>
+
+<div class="footer">
+  <p>&copy; 2025 ELECTROCOOL - Jasa Service AC & Electrical</p>
+</div>
+
+<!-- Tombol WhatsApp -->
+<div class="btn-wa-wrapper">
+  <a class="btn-wa-text" href="https://wa.me/6287743485838?text=Halo%20saya%20ingin%20memesan%20layanan%20ELECTROCOOL" target="_blank" rel="noopener noreferrer">
+    HUBUNGI KAMI SEKARANG
+  </a>
+  <a class="btn-wa" href="https://wa.me/6287743485838?text=Halo%20saya%20ingin%20memesan%20layanan%20ELECTROCOOL" target="_blank" rel="noopener noreferrer">
+    📲
+  </a>
+</div>
+
+</body>
+</html>
